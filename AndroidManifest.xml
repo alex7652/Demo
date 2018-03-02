@@ -2,7 +2,7 @@
     package="com.example.demo"
     android:versionCode="1"
     android:versionName="1.0" >
-
+    <!-- first modify in github -->
     <uses-sdk
         android:minSdkVersion="12"
         android:targetSdkVersion="21" />
