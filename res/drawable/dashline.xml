@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 底端虚线 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item>
+        <shape android:shape="rectangle" >
+
+	      <!-- dashGap为0时是实线 --> 
+	   		<stroke 
+	     
+	        android:dashGap="3dp"  
+	        android:dashWidth="6dp"  
+	        android:width="2dp"
+	        android:color="#63a219" />  
+			
+		</shape>
+    </item>
+     <item android:bottom="2dp">
+        <shape>
+            <solid android:color="#ffffff"/>
+            
+        </shape>
+    </item>
+	
+</layer-list>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+        dividerHeight="1px"
+        android:divider=@color/solid_blue
+        需要连用
+    -->
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/solid_blue"
+        android:dividerHeight="1px"
+        android:headerDividersEnabled="true" >
+    </ListView>
+
+</LinearLayout>

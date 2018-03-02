@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="linearlayout_1_red">红色</string>
+    <string name="linearlayout_1_blue">蓝色</string>
+    <string name="linearlayout_1_yellow">黄色</string>
+    <string name="linearlayout_1_green">绿色</string>
+    <string name="line1">第一行</string>
+    <string name="line2">第二行</string>
+    <string name="line3">第三行</string>
+    <string name="line4">第四行</string>
+    
+</resources>

@@ -1,0 +1,113 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="HHH"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:label="DialogActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.demo.FragmentHideShows"
+            android:label="FragmentHideShow" >
+            <intent-filter>
+                <action android:name="FragmentAction" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="heihei" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FragmentDialog"
+            android:label="FragmentDialog" >
+            <intent-filter>
+                <action android:name="testData" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="alex" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LinearLayout"
+            android:label="LinearLayout" >
+        </activity>
+        <activity
+            android:name=".Spannable"
+            android:label="spannable" >
+        </activity>
+        <activity
+            android:name=".GetExtras"
+            android:label="GetExtras" >
+        </activity>
+        <activity
+            android:name=".SimpleAdapterList"
+            android:label="SimpleAdapterList" >
+        </activity>
+        <activity
+            android:name=".AutoComplete"
+            android:label="AutoComplete" >
+        </activity>
+        <activity
+            android:name=".Dialog"
+            android:label="Dialog" >
+        </activity>
+        <activity
+            android:name=".BundleObject"
+            android:label="BundleObject" >
+        </activity>
+        <activity
+            android:name=".BundleReceive"
+            android:label="BundleReceive" >
+        </activity>
+        <activity
+            android:name=".ExpanList"
+            android:exported="false"
+            android:label="ExpanList" >
+        </activity>
+        <activity
+            android:name=".Inflater"
+            android:label="Inflater" >
+        </activity>
+        <activity
+            android:name=".CustomViewActivity"
+            android:label="CustomViewActivity" >
+        </activity>
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:label="FrameLayoutActivity" >
+        </activity>
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="RelativeLayoutActivity" >
+        </activity>
+		<activity
+            android:name=".StartServiceActivity"
+            android:label="StartServiceActivity" >
+        </activity>
+        <service android:name=".FirstService" >
+        </service>
+    </application>
+
+</manifest>
